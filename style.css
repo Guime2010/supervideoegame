@@ -2,8 +2,8 @@ body{
     text-align: center;
     background-color: black;
     color: blueviolet;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0px;
 }
 #imgprincipal{
     margin-top: 30px;
@@ -51,21 +51,17 @@ hr{
     padding-bottom: 5px;
 }
 
-.menu {
+.myNavbar {
+    position:sticky;
+    top: 0;
+    z-index: 9999;
     list-style: none;
-    position:fixed;
     cursor: pointer;
     background: rgb(34, 3, 63);
-    width: 100%;
-    margin-top: 0px;
-    margin-left: 0px;
-    top: 0px;
-    z-index: 9999;
-    padding: 10px;
-    
+    text-align: center;
 }
 .links {
-    float: left;
+    float: center;
     text-decoration: none;
     display: inline;
     padding-left: 30px;
